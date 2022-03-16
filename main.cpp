@@ -14,4 +14,5 @@ int main(){
 		cin>>a;
                 nums2.insert(nums2.end(),a);
 	}
+	cout<<findMedianSortedArrays(nums1,nums2)<<endl;
 }
