@@ -19,3 +19,4 @@ double findMedianSortedArrays(vector<int>& nums1,vector<int>& nums2){
 		return res[l/2];
 	}
 }
+//first mofidy
