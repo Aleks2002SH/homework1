@@ -1,12 +1,10 @@
 main:
 	echo "Main target"
-maincpp: main.cpp
+compile: main.cpp
 	g++ -c main.cpp
-headerh: header.h
-	g++ -c header.h
-combine: result
-	g++ header.o main.o -o result
-result: result
-	./result
+createresult:
+	g++  main.o -o result
 clean:
 	rm *.o
+workresult: 
+	./result
